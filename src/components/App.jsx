@@ -18,7 +18,7 @@ function Createcard(contacts)
 function App() {
   return (
     <div>
-    <Avatar img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg" />
+   
       <h1 className="heading">My Contacts</h1>
       {contacts.map(Createcard)}
 {/*
